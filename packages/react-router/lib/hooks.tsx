@@ -1120,3 +1120,10 @@ function warningOnce(key: string, cond: boolean, message: string) {
     warning(false, message);
   }
 }
+
+
+// @ts-ignore
+export function MLink(props) {
+  // @ts-ignore
+  return <a {...props}/>
+}
